@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Dr/static/css/main.1f7ed675.css",
+    "main.js": "/Dr/static/js/main.94273bdc.js",
+    "static/media/myVideo.mp4": "/Dr/static/media/myVideo.a9e5c52e1f5fc95fc7b9.mp4",
+    "static/media/big-bg.jpg": "/Dr/static/media/big-bg.e99144dc8d748e4d286d.jpg",
+    "static/media/bg-testimonial.jpg": "/Dr/static/media/bg-testimonial.ede496bcf035bc90b9a5.jpg",
+    "static/media/gallery4.jpg": "/Dr/static/media/gallery4.adc9b4d7225aed8c3b91.jpg",
+    "static/media/about-bg.jpg": "/Dr/static/media/about-bg.402c9857ba3ba153effd.jpg",
+    "static/media/serviceImg3.jpg": "/Dr/static/media/serviceImg3.e087f3591b504eaa65ac.jpg",
+    "static/media/serviceImg2.jpg": "/Dr/static/media/serviceImg2.c619304da5d1f0928895.jpg",
+    "static/media/testi_1.jpg": "/Dr/static/media/testi_1.79036f50bc6d872b7114.jpg",
+    "static/media/gallery6.jpg": "/Dr/static/media/gallery6.45fcf4d9f26d9d928810.jpg",
+    "static/media/gallery5.jpg": "/Dr/static/media/gallery5.8c510a1c1180fe845f37.jpg",
+    "static/media/serviceImg1.jpg": "/Dr/static/media/serviceImg1.d11119c2ae7317751eec.jpg",
+    "static/media/testi_4.jpg": "/Dr/static/media/testi_4.4d56f99b60a1a2ca12ac.jpg",
+    "static/media/testi_3.jpg": "/Dr/static/media/testi_3.0556e915f63f184043ae.jpg",
+    "static/media/logo1.png": "/Dr/static/media/logo1.31f21e157848efb4daf7.png",
+    "static/media/gallery3.jpg": "/Dr/static/media/gallery3.df7f633c3c336621e7f9.jpg",
+    "static/media/gallery1.jpg": "/Dr/static/media/gallery1.cb7eadce2929c4e877a2.jpg",
+    "static/media/gallery2.jpg": "/Dr/static/media/gallery2.f1ab5be8c8c54bc6e631.jpg",
+    "static/media/testi_2.jpg": "/Dr/static/media/testi_2.6f314189cab26bcc6d43.jpg",
+    "static/media/serviceImg4.jpg": "/Dr/static/media/serviceImg4.c7a69af6fb75ca16477f.jpg",
+    "static/media/slick.svg": "/Dr/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Dr/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Dr/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Dr/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Dr/index.html",
+    "main.1f7ed675.css.map": "/Dr/static/css/main.1f7ed675.css.map",
+    "main.94273bdc.js.map": "/Dr/static/js/main.94273bdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f7ed675.css",
+    "static/js/main.94273bdc.js"
+  ]
+}
