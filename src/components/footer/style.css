@@ -1,0 +1,32 @@
+.footer {
+    background-color: #7fd7cc;
+    margin-top: 0;
+    text-align: center;
+    padding: 10px 0;
+    color: blue;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer p a {
+    text-transform: capitalize;
+    color: #d71b4e;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/*media for 480px ====================*/
+@media only screen and (max-width: 450px) {
+    .footer p {
+        font-size: 4vw;
+        line-height: 1.4;
+    }
+
+    .footer p a {
+        font-size: 4.2vw;
+    }
+}

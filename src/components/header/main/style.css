@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../../../assets/big-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header span.playBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    border-radius: 50%;
+    background-color: #30c7b5;
+    ;
+    color: #fff;
+    font-size: 44px;
+    border: 2px solid #fff;
+    animation-name: ripple;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
+    }
+
+    80% {
+        box-shadow: 0 0 0 20px #fff0, 0 0 0 40px #fff0;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
+    }
+}

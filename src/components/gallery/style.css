@@ -1,0 +1,45 @@
+.gallery {
+    margin-bottom: 30px;
+}
+
+.gallery .header {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.gallery .img {
+    display: flex;
+    margin: 0 auto;
+    height: 40vh;
+    width: 90%;
+    border-radius: 5%;
+    object-fit: cover;
+    border: none;
+}
+
+.slick-slide div {
+    outline: none;
+}
+
+.gallery .slick-prev {
+    left: -52px !important;
+}
+
+.gallery .slick-next:before,
+.gallery .slick-prev:before {
+    content: "" !important;
+}
+
+.gallery .next-slick-arrow,
+.gallery .prev-slick-arrow {
+    color: #000000;
+    font-size: 36px;
+}
+
+/*media for 480px ====================*/
+@media only screen and (max-width: 450px) {
+    .gallery .header {
+        font-size: 7vw;
+    }
+}

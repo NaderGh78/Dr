@@ -1,0 +1,71 @@
+.testimonial {
+    margin: 60px 0;
+    padding: 5px 50px 50px 50px;
+    background-image: url("../../assets/testimonials/bg-testimonial.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.testimonial h2 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.testimonial .all-testimonials .single-testi {
+    text-align: center;
+}
+
+.testimonial .all-testimonials .single-testi img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.testimonial .all-testimonials .single-testi h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(33, 33, 33);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.testimonial .all-testimonials .single-testi p {
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+}
+
+.testimonial .slick-prev {
+    left: -52px !important;
+}
+
+.testimonial .slick-next:before,
+.testimonial .slick-prev:before {
+    content: "" !important;
+}
+
+.testimonial .next-slick-arrow,
+.testimonial .prev-slick-arrow {
+    color: #000000;
+    font-size: 36px;
+}
+
+/*media for 480px ====================*/
+@media only screen and (max-width: 450px) {
+    .testimonial {
+        margin: 20px 0;
+    }
+
+    .testimonial h2 {
+        font-size: 7vw;
+    }
+
+    .testimonial {
+        padding: 5px 40px 40px 45px;
+    }
+}

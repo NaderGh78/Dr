@@ -1,0 +1,14 @@
+.scroll-top {}
+
+.scroll-top svg {
+    position: fixed;
+    bottom: 40px;
+    color: #fff;
+    right: 15px;
+    font-size: 20px !important;
+    padding: 7px;
+    background-color: #23b482 !important;
+    border-radius: 50%;
+    z-index: 888888;
+    cursor: pointer;
+}
