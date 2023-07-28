@@ -1,8 +1,7 @@
 import './style.css';
 import Container from '../helpers/Container';
 import { VideoData } from "../config/data";
-import Video from "./Video";
-import { useEffect, useRef } from 'react';
+import Video from "./Video"; 
 
 /*===================================*/
 /*===================================*/

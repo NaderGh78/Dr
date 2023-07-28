@@ -1,6 +1,5 @@
 import { LiaTimesSolid } from "react-icons/lia";
-import { MyMenu, SpanClose, MyLink } from "./style.js";
-import { useRef } from "react";
+import { MyMenu, SpanClose, MyLink } from "./style.js"; 
 
 /*===================================*/
 /*===================================*/
