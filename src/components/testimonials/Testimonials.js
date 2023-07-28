@@ -41,7 +41,7 @@ const Testimonials = () => {
     };
     return (
         <Container>
-            <div className='testimonial'>
+            <div className='testimonial' id='Testimonials'>
                 <h2>Testimonials</h2>
                 <div className="all-testimonials">
                     <Slider {...settings}>

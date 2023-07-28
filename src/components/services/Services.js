@@ -10,7 +10,7 @@ import Service from './Service';
 const Services = () => {
     return (
         <Container>
-            <div className='services'>
+            <div className='services' id='Services'>
                 <div className="heading-box">
                     <h2>Services</h2>
                     <p>We have an exceptional range of services to help you.</p>

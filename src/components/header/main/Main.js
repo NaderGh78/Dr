@@ -27,8 +27,6 @@ const Main = () => {
     refVideo.current.pause();
   }
 
-  console.log(isPlayClicked);
-
   return (
     <header>
       <VideoPoPup play={isPlayClicked} rff={refVideo} close={handleCloseVideo} />

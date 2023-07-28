@@ -1,10 +1,11 @@
 const Video = ({ data: { videoUrl, videoDesc } }) => {
     return (
         <div className="video-box">
-            <video controls>
-                <source src={videoUrl} type="video/mp4">
-                </source>
-            </video>
+            <iframe
+                src={videoUrl}
+                title="YouTube video player"
+                frameBorder="0"
+            ></iframe>
             <p>{videoDesc}</p>
         </div>
     )

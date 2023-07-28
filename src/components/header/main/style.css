@@ -41,3 +41,10 @@ header span.playBtn {
         box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
     }
 }
+
+/*media for 480px ====================*/
+@media only screen and (max-width: 450px) {
+    header {
+        background-image: url(../../../assets/smal-bg.jpg);
+    }
+}

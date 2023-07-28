@@ -9,7 +9,7 @@ import AboutImg from "../../assets/about-bg.jpg";
 const About = () => {
     return (
         <Container>
-            <div className='about'>
+            <div className='about' id='About Us'>
                 <div className="about-box">
                     <img src={AboutImg} alt="" />
                     <div className="about-desc">

@@ -87,22 +87,22 @@ export const GalleryData = [
 export const VideoData = [
     {
         id: 1,
-        videoUrl: "https://www.youtube.com/watch?v=vcOm9V5tJz0",
+        videoUrl: "https://www.youtube.com/embed/vcOm9V5tJz0",
         videoDesc: "What Happens During the First Visit with a Psychiatrist"
     },
     {
         id: 2,
-        videoUrl: "https://www.youtube.com/watch?v=AqnGLiWt_34",
+        videoUrl: "https://www.youtube.com/embed/AqnGLiWt_34",
         videoDesc: "5 Signs That You Need Therapy"
     },
     {
         id: 3,
-        videoUrl: "https://www.youtube.com/watch?v=DhlRgwdDc-E",
+        videoUrl: "https://www.youtube.com/embed/DhlRgwdDc-E",
         videoDesc: "Debunking the Myths of OCD"
     },
     {
         id: 4,
-        videoUrl: "https://www.youtube.com/watch?v=FZBa1wXmGGM",
+        videoUrl: "https://www.youtube.com/embed/FZBa1wXmGGM",
         videoDesc: "10 Common Mental Illnesses"
     },
 ]

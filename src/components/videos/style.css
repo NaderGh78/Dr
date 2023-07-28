@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.videos .videos-boxes .video-box video {
+.videos .videos-boxes .video-box iframe {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -50,7 +50,7 @@
         width: 100%;
     }
 
-    .videos .videos-boxes .video-box video {
+    .videos .videos-boxes .video-box iframe {
         height: 200px;
     }
 }

@@ -12,7 +12,7 @@ const Videos = () => {
 
     return (
         <Container>
-            <div className='videos'>
+            <div className='videos' id='Videos'>
                 <h2>Videos</h2>
                 <div className="videos-boxes">
                     {VideoData?.map(v => (<Video data={v} key={v.id} />))}

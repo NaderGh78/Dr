@@ -41,7 +41,7 @@ const Gallery = () => {
     return (
 
         <Container>
-            <div className='gallery'>
+            <div className='gallery' id='Gallery'>
                 <h1 className="header">Gallery</h1>
                 <Slider {...settings}>
                     {GalleryData.map((item) => (

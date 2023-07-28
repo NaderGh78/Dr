@@ -10,7 +10,7 @@ import { ContactData } from "../config/data";
 const ContactUs = () => {
     return (
         <Container>
-            <div className='contact'>
+            <div className='contact' id='Contact Us'>
                 <h2>Contact Us</h2>
                 <div className="all-contacts">
                     {ContactData?.map(data => (<ContactBox data={data} key={data.id} />))}

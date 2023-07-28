@@ -3,6 +3,11 @@
   scrollbar-color: #ffd71d #fff;
 }
 
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 8px;
@@ -23,6 +28,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 code {

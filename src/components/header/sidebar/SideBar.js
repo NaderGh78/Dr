@@ -8,6 +8,15 @@ import logo from "../../../assets/logo1.png";
 /*===================================*/
 
 const SideBar = ({ click }) => {
+
+    const handleScroll = () => {
+        window.scroll({
+            top: window.innerHeight,
+            behavior: 'smooth',
+        });
+        console.log(window.innerHeight);
+    }
+
     return (
         <div className="sidebar" style={{ right: !click ? "0" : "-40%" }}>
             <div className="sidebar_content">
@@ -23,7 +32,7 @@ const SideBar = ({ click }) => {
                     <a href="#"><FaInstagram /></a>
                     <a href="#"><FaTiktok /></a>
                 </div>
-                <span className="arrow_down">
+                <span className="arrow_down" onClick={handleScroll}>
                     <LiaArrowDownSolid />
                 </span>
             </div>
