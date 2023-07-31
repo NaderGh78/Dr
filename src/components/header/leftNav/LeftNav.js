@@ -19,8 +19,8 @@ const LeftNav = ({ openLeftMenu, clickMenu }) => {
         <MyLink
           $openLeftMenu={openLeftMenu}
           key={index}
-          href={`#${a}`}
-        >
+          href={`#${a.replace(" ","-")}`}
+        > 
           {a}
         </MyLink>)
       )
