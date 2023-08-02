@@ -1,7 +1,7 @@
 import './style.css';
 import { FaYoutube, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { LiaArrowDownSolid } from "react-icons/lia";
-import logo from "../../../assets/logo1.png";
+import logo from "../../../assets/logo.png";
 
 /*===================================*/
 /*===================================*/

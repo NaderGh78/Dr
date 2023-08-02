@@ -19,7 +19,7 @@ header .sidebar .sidebar_content {
 }
 
 header .sidebar .sidebar_content img {
-    width: 185px;
+    width: 235px;
 }
 
 header .sidebar .sidebar_content h1 {
@@ -120,7 +120,7 @@ header .sidebar .sidebar_content span.arrow_down:hover {
     }
 
     header .sidebar .sidebar_content img {
-        width: 38vw;
+        width: 24vw;
     }
 
     header .sidebar .sidebar_content h1 {
