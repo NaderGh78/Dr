@@ -112,7 +112,7 @@ header .sidebar .sidebar_content span.arrow_down:hover {
         left: calc(50% - 30px);
     }
 
-    header .sidebar {
+    header .sidebar { 
         width: 100%;
         height: 60%;
         top: 40%;
