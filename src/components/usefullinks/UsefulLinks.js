@@ -7,6 +7,8 @@ import { FaYoutube, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 /*===================================*/
 
 const UsefulLinks = () => {
+    // array of page names
+    const PagesArr = ["home", "Services", "About Us", "Gallery", "Videos", "Testimonials", "Contact Us"];
     return (
         <Container>
             <div className='useful'>
@@ -14,12 +16,16 @@ const UsefulLinks = () => {
                     <div className="usefull-box">
                         <h5>useful links</h5>
                         <ul>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Gallery</a></li>
-                            <li><a href="">Videos</a></li>
-                            <li><a href="">Testimonials</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            {PagesArr?.map((a, index) =>
+                            (
+                                <li key={index}>
+                                    <a href={`#${a.replace(" ", "-")}`}>
+                                        {a}
+                                    </a>
+                                </li>)
+                            )
+                            }
+
                         </ul>
                     </div>
                     <div className="usefull-box">

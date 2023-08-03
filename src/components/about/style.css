@@ -25,10 +25,11 @@
     text-transform: capitalize;
     font-weight: 400;
     margin: 0;
+    color: var(--heading-color);
 }
 
 .about .about-box .about-desc p {
-    color: rgba(58, 58, 58, 0.8);
+    color: var(--text-color);
     font-size: 19px;
     font-weight: 400;
 }

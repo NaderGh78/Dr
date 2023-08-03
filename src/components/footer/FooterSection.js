@@ -9,8 +9,7 @@ const FooterSection = () => {
   return (
     <Container>
       <div className='footer'>
-
-        <p>&copy; Copyrights 2023 - 2024.<a href="">nader g</a>.All Rights Reserved.</p>
+        <p>Copyright &copy; 2023 / made by <a href="https://ngwebsite78.netlify.app/" target='_blank'>[nader g]</a>.</p>
       </div>
     </Container>
   )

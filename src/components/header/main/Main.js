@@ -28,7 +28,7 @@ const Main = () => {
   }
 
   return (
-    <header>
+    <header id='home'>
       <VideoPoPup play={isPlayClicked} rff={refVideo} close={handleCloseVideo} />
       <MenuIcon menuClick={handleOpenMenu} />
       <LeftNav openLeftMenu={isMenuClicked} clickMenu={handleOpenMenu} />

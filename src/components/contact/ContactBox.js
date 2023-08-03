@@ -1,7 +1,8 @@
 const ContactBox = ({ data: { icon, title, contactDesc } }) => {
+    const Icon = icon;
     return (
         <div className="contact-box">
-            <img src={icon} alt="" />
+            <Icon />
             <h5>{title}</h5>
             <p>{contactDesc}</p>
         </div>

@@ -1,15 +1,14 @@
 .footer {
-    background-color: #7fd7cc;
+    background-color: var(--footerBg-color);
     margin-top: 0;
     text-align: center;
     padding: 10px 0;
-    color: blue;
 }
 
 .footer p {
     margin: 0;
     font-size: 20px;
-    color: #fff;
+    color: #3e3ed9;
 }
 
 .footer p a {

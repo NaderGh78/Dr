@@ -21,10 +21,11 @@ import TestiImg4 from "../../assets/testimonials/testi_4.jpg";
 
 
 // contact data 
-import Icon1 from "../../assets/contact/location.jpg";
-import Icon2 from "../../assets/contact/contactus.jpg";
-import Icon3 from "../../assets/contact/phone.jpg";
-import Icon4 from "../../assets/contact/timing.jpg";
+// import Icon1 from "../../assets/contact/location.jpg";
+// import Icon2 from "../../assets/contact/contactus.jpg";
+// import Icon3 from "../../assets/contact/phone.jpg";
+// import Icon4 from "../../assets/contact/timing.jpg";
+import { LiaClock, LiaMapMarkerSolid, LiaEnvelopeSolid, LiaPhoneSolid } from "react-icons/lia";
 
 /*===================================*/
 /*===================================*/
@@ -137,25 +138,25 @@ export const TestimonialData = [
 export const ContactData = [
     {
         id: 1,
-        icon: Icon1,
+        icon: LiaMapMarkerSolid,
         title: "Our Office Address",
         contactDesc: "Egypt - Cairo Main Street"
     },
     {
         id: 2,
-        icon: Icon2,
+        icon: LiaEnvelopeSolid,
         title: "General Enquires",
         contactDesc: "example77@gmailcom"
     },
     {
         id: 3,
-        icon: Icon3,
+        icon: LiaPhoneSolid,
         title: "Call Us",
         contactDesc: "+20-123456789"
     },
     {
         id: 4,
-        icon: Icon4,
+        icon: LiaClock,
         title: "Our Timing",
         contactDesc: "Mon - Sun :10:00 AM - 07:00 PM"
     }

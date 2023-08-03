@@ -2,6 +2,10 @@
     margin-bottom: 30px;
 }
 
+.gallery h1 {
+    color: var(--heading-color);
+}
+
 .gallery .header {
     font-size: 42px;
     text-align: center;
@@ -33,7 +37,7 @@
 
 .gallery .next-slick-arrow,
 .gallery .prev-slick-arrow {
-    color: #000000;
+    color: var(--heading-color);
     font-size: 36px;
 }
 

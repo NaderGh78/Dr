@@ -13,6 +13,7 @@
     font-weight: 500;
     text-transform: capitalize;
     margin: 0 0 10px 0;
+    color: var(--heading-color);
 }
 
 .useful .all-usefuls ul {
@@ -27,7 +28,7 @@
 
 .useful .all-usefuls ul li a {
     text-decoration: none;
-    color: #186b61;
+    color: var(--text-color);
     font-size: 14px;
 }
 
@@ -46,7 +47,7 @@
     justify-content: center;
     width: 35px;
     height: 35px;
-    background-color: #ffd71d;
+    background-color: #f5b237;
     font-size: 18px;
     color: #000;
     border: 2px solid transparent;
@@ -55,9 +56,9 @@
 }
 
 .useful .all-usefuls .usefull-box:last-child ul a:hover {
-    border: 2px solid #ffd71d;
+    border: 2px solid #f5b237;
     background-color: transparent;
-    color: #186b61;
+    color: var(--text-color);
 }
 
 /*media for 480px ====================*/

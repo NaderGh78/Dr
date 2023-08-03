@@ -1,13 +1,11 @@
 import { LiaTimesSolid } from "react-icons/lia";
-import { MyMenu, SpanClose, MyLink } from "./style.js"; 
+import { MyMenu, SpanClose, MyLink } from "./style.js";
 
 /*===================================*/
 /*===================================*/
 /*===================================*/
 
 const LeftNav = ({ openLeftMenu, clickMenu }) => {
-
-
   // array of page names
   const PagesArr = ["home", "Services", "About Us", "Gallery", "Videos", "Testimonials", "Contact Us"];
   return (
@@ -19,8 +17,8 @@ const LeftNav = ({ openLeftMenu, clickMenu }) => {
         <MyLink
           $openLeftMenu={openLeftMenu}
           key={index}
-          href={`#${a.replace(" ","-")}`}
-        > 
+          href={`#${a.replace(" ", "-")}`}
+        >
           {a}
         </MyLink>)
       )

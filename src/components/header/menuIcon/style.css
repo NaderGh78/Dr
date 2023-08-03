@@ -15,7 +15,7 @@ header .menu_icon {
 header .menu_icon div {
     width: 65%;
     height: 3px;
-    background-color: #ffd71d;
+    background-color: #f5b237;
     margin-bottom: 7px;
     transition: all .2s;
 }

@@ -15,12 +15,12 @@ export const MyMenu = styled('div')`
 
     @media (max-width: 450px) {
         width:${props => props.$openLeftMenu ? "100%" : "0"};  
-  }
+    }
 `
 
 export const MyLink = styled("a")`
     text-decoration: none;
-    color: #ffd71d;
+    color: #f5b237;
     font-size: 30px;
     text-transform: uppercase;
     position: relative;
@@ -111,11 +111,11 @@ export const MyLink = styled("a")`
 
 `
 export const SpanClose = styled('span')`
-     position: absolute;
+    position: absolute;
     right: 10px;
     top: 10px;
     font-size: 40px;
-    color: #ffd71d;
+    color: #f5b237;
     transition: all .2s;
     cursor: pointer;
 

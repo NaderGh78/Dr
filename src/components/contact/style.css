@@ -6,6 +6,7 @@
     font-size: 42px;
     text-align: center;
     font-weight: 400;
+    color: var(--heading-color);
 }
 
 .contact .all-contacts {
@@ -23,11 +24,20 @@
     border-right: none;
 }
 
+.contact .all-contacts .contact-box svg {
+    font-size: 40px;
+    color: var(--heading-color);
+}
+
 .contact .all-contacts .contact-box h5 {
     font-size: 23px;
     font-weight: 500;
     margin: 5px 0;
-    color: rgb(66, 68, 72);
+    color: var(--heading-color);
+}
+
+.contact .all-contacts .contact-box p {
+    color: var(--text-color);
 }
 
 /*media for 480px ====================*/

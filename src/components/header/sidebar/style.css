@@ -4,8 +4,17 @@ header .sidebar {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(48, 199, 181, .6);
+    background-color: var(--sidebarBg-color);
     transition: all .4s;
+}
+
+header .sidebar svg.day-night {
+    font-size: 35px;
+    color: #f5b237;
+    position: fixed;
+    right: 12px;
+    top: 18px;
+    cursor: pointer;
 }
 
 header .sidebar .sidebar_content {
@@ -36,14 +45,14 @@ header .sidebar .sidebar_content p {
 }
 
 header .sidebar .sidebar_content a.book {
-    background-color: #ffd71d;
+    background-color: #f5b237;
     color: #000;
     text-transform: capitalize;
     padding: 10px 19px;
     font-weight: 500;
     border-radius: 35px;
     letter-spacing: 1px;
-    border: 2px solid #ffd71d;
+    border: 2px solid #f5b237;
     transition: all .2s;
     cursor: pointer;
 }
@@ -65,7 +74,7 @@ header .sidebar .sidebar_content .social_links a {
     justify-content: center;
     width: 35px;
     height: 35px;
-    background-color: #ffd71d;
+    background-color: #f5b237;
     font-size: 18px;
     color: #000;
     border: 2px solid transparent;
@@ -74,7 +83,7 @@ header .sidebar .sidebar_content .social_links a {
 }
 
 header .sidebar .sidebar_content .social_links a:hover {
-    border: 2px solid #ffd71d;
+    border: 2px solid #f5b237;
     background-color: transparent;
     color: #fff;
 }
@@ -112,7 +121,7 @@ header .sidebar .sidebar_content span.arrow_down:hover {
         left: calc(50% - 30px);
     }
 
-    header .sidebar { 
+    header .sidebar {
         width: 100%;
         height: 60%;
         top: 40%;

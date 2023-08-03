@@ -1,13 +1,18 @@
 import './style.css';
 import { FaYoutube, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
-import { LiaArrowDownSolid } from "react-icons/lia";
+import { LiaArrowDownSolid, LiaSunSolid } from "react-icons/lia";
+import { MdNightlightRound, MdSunny } from "react-icons/md";
 import logo from "../../../assets/logo.png";
+import { DarkModContext } from "../../../context/darkMoodContext";
+import { useContext } from 'react';
 
 /*===================================*/
 /*===================================*/
 /*===================================*/
 
 const SideBar = ({ click }) => {
+
+    const { isDark, toggle } = useContext(DarkModContext);
 
     const handleScroll = () => {
         window.scroll({
@@ -19,6 +24,7 @@ const SideBar = ({ click }) => {
 
     return (
         <div className="sidebar" style={{ right: !click ? "0" : "-40%" }}>
+            {isDark ? <MdSunny className='day-night' onClick={toggle} /> : <MdNightlightRound className='day-night' onClick={toggle} />}
             <div className="sidebar_content">
                 <a href="">
                     <img src={logo} alt="logo" />
